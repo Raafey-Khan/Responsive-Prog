@@ -1,0 +1,170 @@
+:root{
+--border:  rgb(246, 121, 152);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+
+.navbar{
+    display: flex;
+    margin-top: 1.4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img{
+    height: 30px;
+}
+
+.navbar ul {
+display: flex;
+gap: 1.8rem;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+
+
+.head-txt{
+    border-left: solid var(--border) 11px;
+    margin-top: 9rem;
+    
+    padding-left: 2rem;
+}
+.content1-section .head-txt .txt1{
+    font-size: 50px;
+    font-weight: 600;
+  
+}
+
+.content1-section .head-txt .txt{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.subtxt{
+    color: rgb(120, 120, 120);
+    margin-left: 0.2rem;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 0.7rem;
+}
+.about-subtxt{
+    color: rgb(189, 188, 188);
+    margin-left: 0.4rem;
+}
+
+.price-container{
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+}
+.p-details{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.buy-now-btn{
+text-align: left;
+}
+
+.btn-txt{
+    color: white;
+    width: 150px;
+    margin-left: 3.5rem;
+    padding: 0.9rem 0;
+    background-color: rgb(237, 38, 111);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn-txt p{
+    text-align: left;
+    padding-left: 12px;
+}
+.btn-txt{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-txt:hover{
+
+    transition: 5s ease-in-out;
+    background: rgb(238,174,202);
+background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(250,33,55,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(250,33,55,1) 100%);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(250,33,55,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#fa2137",GradientType=1);
+   
+}
+
+.content-container{
+    display: flex;
+  width: 100%;
+  
+  gap: 11rem;
+}
+.content1-section{
+    flex-basis: 60%;
+}
+
+.content4-image-cart-section{
+    flex-basis: 40%;
+}
+
+.add-to-cart-container{
+  border-top-left-radius: 20px;  
+  border-bottom-left-radius: 20px;
+  height: 392px;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  position: relative;
+  left: 170px;
+  background: rgb(238,174,202);
+background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(250,33,55,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(250,33,55,1) 100%);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(250,33,55,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#fa2137",GradientType=1);
+}
+
+.add-to-cart-container img{
+    height: 40px;
+    margin-bottom: 1rem;
+    
+}
+
+.white-color{
+    color: white;
+}
+
+.play-station-img img{
+    height: 381px;
+    width: 594px;
+    object-fit: cover;
+    margin-top: 8px;
+    position: absolute;
+    top: 158px;
+    right: 188px;
+    box-shadow: none;
+}
